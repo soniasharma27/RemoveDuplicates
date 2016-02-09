@@ -62,7 +62,7 @@ public class DeDup {
 			}
 			//once user will enter 'N' program will terminate
 			System.out.println("System exiting");
-			System.exit(0);
+			return;
 
 		} finally {
 			reader.close();
